@@ -1,0 +1,9 @@
+scrappers:
+  oic:
+    base_url: https://www.optionseducation.org/toolsoptionquotes/today-s-most-active-options
+    wait_time_per_click: 3
+    min_volume: 250
+  high_short_interest:
+    base_url: https://www.highshortinterest.com/
+    wait_time_per_click: 3
+    min_volume: 250
