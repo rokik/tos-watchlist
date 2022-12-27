@@ -1,8 +1,9 @@
 from abc import abstractmethod
+
 from omegaconf import DictConfig
 from selenium import webdriver
 
-from . selenium_handler import SeleniumHandler
+from .selenium_handler import SeleniumHandler
 
 
 class SymbolScrapperBase:

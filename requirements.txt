@@ -1,4 +1,4 @@
-hydra-core >=1.2
+hydra-core>=1.2
 selenium==4.2.0
 yfinance>=0.1.7.0
 omegaconf~=2.2.2

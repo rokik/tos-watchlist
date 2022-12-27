@@ -1,10 +1,11 @@
-from selenium import webdriver
-from omegaconf import DictConfig
-from selenium.webdriver.common.by import By
 import time
 
-from . symbol_filters import VolumeFilter
-from . scrapper_base import SymbolScrapperBase
+from omegaconf import DictConfig
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+from .scrapper_base import SymbolScrapperBase
+from .symbol_filters import VolumeFilter
 
 
 class OicScrapper(SymbolScrapperBase):

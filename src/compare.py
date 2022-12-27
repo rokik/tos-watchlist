@@ -1,5 +1,4 @@
 from _datetime import datetime
-import csv
 
 current_formatted_date = datetime.now().strftime("%Y-%m-%d")
 exported_file_name = current_formatted_date + "-watchlist.csv"
@@ -41,4 +40,3 @@ def compare():
 
 if __name__ == '__main__':
     compare()
-
